@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="8" lines-valid="8" branches-covered="6" branches-valid="6" complexity="7.0" version="1.9.4.1" timestamp="1529474793387">
+	<sources>
+		<source>E:/eclipse-workspace/test.cover/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="rookiecc.test.cover" line-rate="1.0" branch-rate="1.0" complexity="7.0">
+			<classes>
+				<class name="rookiecc.test.cover.MathUtil" filename="rookiecc/test/cover/MathUtil.java" line-rate="1.0" branch-rate="1.0" complexity="7.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="max" signature="(III)I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="5" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="6" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="7" hits="1" branch="false"/>
+								<line number="9" hits="1" branch="false"/>
+								<line number="12" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="13" hits="1" branch="false"/>
+								<line number="15" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="6" branch="false"/>
+						<line number="5" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="6" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="7" hits="1" branch="false"/>
+						<line number="9" hits="1" branch="false"/>
+						<line number="12" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="1" branch="false"/>
+						<line number="15" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
